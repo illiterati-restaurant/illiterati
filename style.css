@@ -1,0 +1,194 @@
+@font-face {
+  font-family: avenir;
+  src: url(avenir.ttc);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #343345;
+  margin-top: 60px;
+  color: #fff;
+  font-family: avenir;
+  position: relative;
+}
+
+@media(max-width:767px) {
+  body {
+    margin-top: 60px;
+  }
+}
+
+.navbar-illiterati {
+  background-color:  #343345;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  font-size: 22px;
+  box-shadow: none;
+}
+
+.navbar-illiterati .navbar-brand {
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.navbar-illiterati .navbar-brand:hover {
+  opacity: 1;
+}
+
+.navbar-illiterati .navbar-nav > li > a {
+  color: #d9d9d9;
+}
+
+.navbar-illiterati .navbar-nav > li > a:hover,
+.navbar-illiterati .navbar-nav > li > a:focus  {
+  color: #fff;
+}
+
+@media(max-width:767px) {
+  .navbar-illiterati {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+.logo {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.logo-div {
+   height: 100vh;  /*vh = view height*/
+   position: relative;
+}
+
+@media(max-width:767px) {
+  .logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo-div {
+    height: 100vh;
+  }
+}
+
+.footer {
+  height: 30px;
+  background-color: #343345;
+  text-align: center;
+}
+
+@media(max-width:767px) {
+  .footer {
+    bottom: -20px;
+  }
+}
+
+.about p  {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #fefefe;
+}
+
+@media(max-width:767px) {
+  .about p  {
+    font-size: 15px;
+  }
+}
+
+/* .carousel {
+  height: 90vh;
+} */
+
+.social-media-logo {
+  height: 30px;
+  width:  30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin: 20 0 0;
+}
+
+
+/* .google-maps {
+  width: 600px;
+  height: 450px;
+  margin-top: 110px; /*bad solution? how to get the top spacing riht*/
+} */
+
+#contact {
+  margin-top: 110px; /*^^^^^*/
+}
+
+.embed-googleMap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: 474px;
+}
+
+.embed-googleMap iframe,
+.embed-googleMap object,
+.embed-googleMap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#gallery {
+  top: -60px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-full {
+  min-height: 100vh;
+}
+
+.contact-info p {
+  margin-bottom: 53px;
+  font-size: 15px;
+}
+
+@media(max-width:767px) {
+  .contact-info p  {
+    margin: 10px;
+  }
+}
+
+.slick-image img {
+  margin: 0 auto;
+}
+
+.navbar-illiterati .navbar-brand {
+  padding: 16px 16px 16px 0;
+  font-size: 22px;
+  opacity: 1;
+  color: #d9d9d9;
+  text-shadow: 0 1px 0 rgba(255,255,255,.25);
+}
+
+@media(max-width:767px) {
+  .section-gallery {
+    min-height: initial;
+  }
+}

@@ -1,0 +1,187 @@
+@font-face {
+  font-family: avenir;
+  src: url(avenir.ttc);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #343345;
+  margin-top: 150px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: avenir;
+  position: relative;
+}
+
+@media(max-width:767px) {
+  body {
+    margin-top: 60px;
+  }
+}
+
+.navbar-illiterati {
+  background-color:  #343345;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: none;
+}
+
+.navbar-illiterati .navbar-brand {
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.navbar-illiterati .navbar-brand:hover {
+  opacity: 1;
+}
+
+.navbar-illiterati .navbar-nav > li > a {
+  color: #d9d9d9;
+}
+
+.navbar-illiterati .navbar-nav > li > a:hover,
+.navbar-illiterati .navbar-nav > li > a:focus  {
+  color: #fff;
+}
+
+@media(max-width:767px) {
+  .navbar-illiterati {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+.logo {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.logo-div {
+   height: 55vh;  /*vh = view height*/
+   position: relative;
+}
+
+@media(max-width:767px) {
+  .logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo-div {
+    height: 45vh;
+  }
+}
+
+.logo-icon {
+  width: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #343345;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #fefefe;
+}
+
+@media(max-width:767px) {
+  .about p  {
+    font-size: 15px;
+  }
+}
+
+.carousel {
+  height: 90vh;
+}
+
+.social-media-logo {
+  height: 30px;
+  width:  30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+/* .google-maps {
+  width: 600px;
+  height: 450px;
+  margin-top: 110px; /*bad solution? how to get the top spacing riht*/
+} */
+
+#contact {
+  margin-top: 110px; /*^^^^^*/
+}
+
+.embed-googleMap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-googleMap iframe,
+.embed-googleMap object,
+.embed-googleMap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -130px;
+  visibility: hidden;^
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.gallery-pics{
+  width: auto;
+  padding: 2px;
+  height: 150px;
+  border-radius: 0px;
+}
+
+.btn {
+  background-color: inherit; /*how to get rid of white border, bad solution*/
+  padding: 0;
+}
+
+
+
+@media(max-width:767px) {
+   .gallery-pics {
+     height: 100%;
+  }
+}
+.galleryModal {
+  border: none;
+}
