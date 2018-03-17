@@ -74,7 +74,7 @@ $(document).ready(function(){
       var $anchor = $(anchor);
 
       scrollTo($anchor, {
-        offset: 80
+        offset: 100
       });
     }
 
