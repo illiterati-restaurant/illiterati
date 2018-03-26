@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-lightbox.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -186,6 +187,17 @@
 
    </section>
 
+
+
+   <a data-toggle="lightbox" href="#demoLightbox" id="myLightbox">Open Lightbox</a>
+
+   <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+     <div class='lightbox-content'>
+       <img src="images/staff.jpg" class="img-responsive gallery-pics"/>
+     </div>
+ </div>
+
+
     <footer class="footer">
       <div class="container">
         <p class="text-muted">Copyright &copy; Illiterati 2018 </p>
@@ -197,6 +209,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="bootstrap-lightbox.js"></script>
     <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.23.6'><\/script>".replace("HOST", location.hostname));
 //]]></script>
